@@ -10,3 +10,22 @@
     font-family: 'Balsamiq Sans', cursive;
 
 }
+
+.sq1{
+    border-top-right-radius:100%;
+    border-bottom-right-radius:100%;
+    border-bottom-left-radius: 100%;
+}
+
+.my-photo{
+transform: rotate(8deg);
+transition: 0.5s ease-in-out;
+/* give abstract borders */
+/* border-radius: 100%; */
+
+}
+
+.my-photo:hover{
+    transform: rotate(0deg);
+    border-radius: 100%;
+}
