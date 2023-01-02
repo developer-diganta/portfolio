@@ -12,8 +12,8 @@ function SectionTwo() {
     hidden
     lg: flex
     w - 40 h - 40 bg -
-            primary 
-            
+            primary
+
 
             "
       ></div>
