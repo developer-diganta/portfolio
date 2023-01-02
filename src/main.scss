@@ -1,0 +1,25 @@
+.parent {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    margin: 0;
+    background: red;
+    scroll-snap-type: x proximity;
+    // smooth scrolling
+
+
+    overflow-x: scroll;
+            overflow-y: hidden !important;
+    display: flex;
+    
+
+        .section {
+            max-width: 100%;
+            flex:none;
+    scroll-behavior: smooth;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+            scroll-snap-align: start;
+        }
+    }

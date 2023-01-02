@@ -1,0 +1,30 @@
+.parent {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  margin: 0;
+  scroll-snap-type: x proximity;
+  overflow-x: scroll;
+  overflow-y: hidden !important;
+  display: flex;
+  scroll-behavior: smooth;
+  /* scroll snap points */
+  scroll-snap-points-x: repeat(100%);
+  scroll-snap-points-y: repeat(100%);
+  /* hide scroll bar */
+  scrollbar-width: none;
+
+}
+
+.parent::-webkit-scrollbar{
+    display: none;
+  }
+.parent .section {
+  max-width: 100%;
+  flex: none;
+  /* scroll snap align */
+  scroll-snap-align: start;
+  scrollbar-width: none;
+}
+
+/*# sourceMappingURL=main.css.map */
