@@ -13,7 +13,7 @@
 }
 .tech-html{
     color: #e34c26;
-  
+
 
 }
 
@@ -82,7 +82,7 @@
 
 .tech-cpp{
     color: #00599c;
-    
+
 }
 
 /* add glow effect to each when hovered */
@@ -210,7 +210,7 @@
     -webkit-text-stroke: 1px #e34c26;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+
     display: none;
 
 }
@@ -410,4 +410,3 @@
 .tech-cpp:hover ~ .cpp{
     display: flex;
 }
-

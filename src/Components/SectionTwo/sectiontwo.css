@@ -37,6 +37,6 @@ transition: 0.5s ease-in-out;
     /* rotate individual letter by 180deg */
     transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
-    
+
 
 }

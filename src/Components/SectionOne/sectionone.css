@@ -7,8 +7,8 @@
       -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
       1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
   }
-  
-  30% { 
+
+  30% {
     color: hsl(230, 80%, 90%);
     text-shadow:
       0 0 1em hsla(320, 100%, 50%, 0.5),
@@ -16,8 +16,8 @@
       -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
       0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
   }
-  
-  40% { 
+
+  40% {
     color: hsl(230, 100%, 95%);
     text-shadow:
       0 0 1em hsla(320, 100%, 50%, 0.5),
@@ -25,7 +25,7 @@
       -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
       0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
   }
-  
+
   70% {
     color: hsl(230, 80%, 90%);
     text-shadow:
@@ -34,7 +34,7 @@
       0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
       -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
   }
-  
+
   100% {
     color: hsl(230, 40%, 80%);
     text-shadow:
@@ -43,7 +43,7 @@
       1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
       -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
   }
-  
+
 }
 
 .section-one{
@@ -64,7 +64,7 @@
     background: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2, #fed90f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+
 }
 
 
@@ -85,7 +85,7 @@
 	 background-repeat: round;
 	 background-position: 0em;
 }
- 
+
 
 
 
@@ -102,7 +102,7 @@
   padding: 0.7em 2em;
   border-radius: 65px;
 
-  
+
   box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
   -webkit-transition: box-shadow 0.25s;
   transition: box-shadow 0.25s;
