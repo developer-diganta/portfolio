@@ -29,3 +29,14 @@ transition: 0.5s ease-in-out;
     transform: rotate(0deg);
     border-radius: 100%;
 }
+
+.abt-letter{
+    transition: 0.5s ease-in-out;
+}
+.abt-letter:hover{
+    /* rotate individual letter by 180deg */
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    
+
+}

@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import SectionOne from './Components/SectionOne/SectionOne';
+import SectionThree from './Components/SectionThree/SectionThree';
 import SectionTwo from './Components/SectionTwo/SectionTwo';
 import './main.css'
 function App() {
@@ -16,7 +17,7 @@ function App() {
           <SectionTwo/>
         </div>  
         <div className='section' id='tech'>
-        <h2>Hi</h2>
+          <SectionThree/>
         </div>  
       </div>
 
