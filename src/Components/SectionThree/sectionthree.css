@@ -1,0 +1,413 @@
+.tech-header{
+    font-family: 'league spartan', sans-serif;
+        background: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2, #fed90f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* slight text glow */
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 60%, 0.5),
+      -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+      0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+
+}
+.tech-html{
+    color: #e34c26;
+  
+
+}
+
+.tech-css{
+    color: #264de4;
+}
+
+.tech-js{
+    color: #f0db4f;
+}
+
+.tech-react{
+    color: #61dbfb;
+}
+
+.tech-node{
+    color: #3c873a;
+}
+
+.tech-mysql{
+    color: #00758f;
+}
+
+.tech-git{
+    color: #f14e32;
+}
+.tech-bootstrap{
+    color: #563d7c;
+}
+
+.tech-mongo{
+    color: #47a248;
+}
+
+.tech-tailwind{
+    color: #38b2ac;
+}
+
+.tech-jquery{
+    color: #0769ad;
+}
+
+.tech-docker{
+    color: #2496ed;
+}
+
+.tech-postman{
+    color: #ff6c37;
+}
+
+.tech-firebase{
+    color: #ffca28;
+}
+
+.tech-webpack{
+    color: #8ed6fb;
+}
+
+.tech-redux{
+    color: #764abc;
+}
+
+.tech-express{
+    color: #000000;
+}
+
+.tech-cpp{
+    color: #00599c;
+    
+}
+
+/* add glow effect to each when hovered */
+
+.tech-html:hover{
+    color: #e34c26;
+    /* add gray glow */
+    filter: drop-shadow(0 0 0.85rem #ff3300);
+    transition: 0.1s ease-in-out;
+}
+
+
+
+.tech-css:hover{
+    color: #264de4;
+    filter: drop-shadow(0 0 0.85rem #264de4);
+    transition: 0.1s ease-in-out;
+}
+
+.tech-js:hover{
+    color: #f0db4f;
+    filter: drop-shadow(0 0 0.85rem #f0db4f);
+    transition: 0.1s ease-in-out;
+}
+
+.tech-react:hover{
+    color: #61dbfb;
+    filter: drop-shadow(0 0 0.85rem #61dbfb);
+    transition: 0.1s ease-in-out;
+}
+
+
+.tech-node:hover{
+    color: #3c873a;
+    filter: drop-shadow(0 0 0.85rem #3c873a);
+    transition: 0.1s ease-in-out;
+}
+
+.tech-mysql:hover{
+    color: #00758f;
+    filter: drop-shadow(0 0 0.85rem #00758f);
+    transition: 0.1s ease-in-out;
+}
+
+.tech-git:hover{
+    color: #f14e32;
+    filter: drop-shadow(0 0 0.85rem #f14e32);
+    transition: 0.1s ease-in-out;
+}
+
+.tech-bootstrap:hover{
+    color: #563d7c;
+    filter: drop-shadow(0 0 0.85rem #563d7c);
+    transition: 0.1s ease-in-out;
+}
+
+.tech-mongo:hover{
+    color: #47a248;
+    filter: drop-shadow(0 0 0.85rem #47a248);
+    transition: 0.1s ease-in-out;
+}
+
+.tech-tailwind:hover{
+    color: #38b2ac;
+    filter: drop-shadow(0 0 0.85rem #38b2ac);
+    transition: 0.1s ease-in-out;
+}
+
+.tech-jquery:hover{
+    color: #0769ad;
+    filter: drop-shadow(0 0 0.85rem #0769ad);
+    transition: 0.1s ease-in-out;
+}
+
+.tech-docker:hover{
+    color: #2496ed;
+    filter: drop-shadow(0 0 0.85rem #2496ed);
+    transition: 0.1s ease-in-out;
+}
+
+.tech-postman:hover{
+    color: #ff6c37;
+    filter: drop-shadow(0 0 0.85rem #ff6c37);
+    transition: 0.1s ease-in-out;
+}
+
+.tech-firebase:hover{
+    color: #ffca28;
+    filter: drop-shadow(0 0 0.85rem #ffca28);
+    transition: 0.1s ease-in-out;
+}
+
+.tech-webpack:hover{
+    color: #8ed6fb;
+    filter: drop-shadow(0 0 0.85rem #8ed6fb);
+    transition: 0.1s ease-in-out;
+}
+
+.tech-redux:hover{
+    color: #764abc;
+    filter: drop-shadow(0 0 0.85rem #764abc);
+    transition: 0.1s ease-in-out;
+}
+
+.tech-express:hover{
+    color: #000000;
+    filter: drop-shadow(0 0 0.85rem #000000);
+    transition: 0.1s ease-in-out;
+}
+
+.tech-cpp:hover{
+    color: #00599c;
+    filter: drop-shadow(0 0 0.85rem #00599c);
+    transition: 0.1s ease-in-out;
+}
+
+/* add glow effect to each when hovered */
+
+
+
+
+
+
+.html{
+    -webkit-text-stroke: 1px #e34c26;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    display: none;
+
+}
+
+.css{
+    -webkit-text-stroke: 1px #264de4;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.js{
+    -webkit-text-stroke: 1px #f0db4f;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.react{
+    -webkit-text-stroke: 1px #61dbfb;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.node{
+    -webkit-text-stroke: 1px #3c873a;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.mysql{
+    -webkit-text-stroke: 1px #00758f;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+
+.git{
+    -webkit-text-stroke: 1px #f14e32;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.bootstrap{
+    -webkit-text-stroke: 1px #563d7c;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.mongo{
+    -webkit-text-stroke: 1px #47a248;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.tailwind{
+    -webkit-text-stroke: 1px #38b2ac;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.jquery{
+    -webkit-text-stroke: 1px #0769ad;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.docker{
+    -webkit-text-stroke: 1px #2496ed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.postman{
+    -webkit-text-stroke: 1px #ff6c37;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.firebase{
+    -webkit-text-stroke: 1px #ffca28;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.webpack{
+    -webkit-text-stroke: 1px #8ed6fb;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.redux{
+    -webkit-text-stroke: 1px #764abc;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.express{
+    -webkit-text-stroke: 1px #000000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+.cpp{
+    -webkit-text-stroke: 1px #00599c;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+
+.tech-html:hover ~ .html{
+    display: flex;
+}
+
+.tech-css:hover ~ .css{
+    display: flex;
+}
+
+.tech-js:hover ~ .js{
+    display: flex;
+}
+
+.tech-react:hover ~ .react{
+    display: flex;
+}
+
+.tech-node:hover ~ .node{
+    display: flex;
+}
+
+.tech-mysql:hover ~ .mysql{
+    display: flex;
+}
+
+.tech-git:hover ~ .git{
+    display: flex;
+}
+
+.tech-bootstrap:hover ~ .bootstrap{
+    display: flex;
+}
+
+.tech-mongo:hover ~ .mongo{
+    display: flex;
+}
+
+
+
+.tech-tailwind:hover ~ .tailwind{
+    display: flex;
+}
+
+.tech-jquery:hover ~ .jquery{
+    display: flex;
+}
+
+.tech-docker:hover ~ .docker{
+    display: flex;
+}
+
+.tech-postman:hover ~ .postman{
+    display: flex;
+}
+
+.tech-firebase:hover ~ .firebase{
+    display: flex;
+}
+
+.tech-webpack:hover ~ .webpack{
+    display: flex;
+}
+
+
+.tech-redux:hover ~ .redux{
+    display: flex;
+}
+
+.tech-express:hover ~ .express{
+    display: flex;
+}
+
+.tech-cpp:hover ~ .cpp{
+    display: flex;
+}
+
