@@ -1,43 +1,29 @@
 import './sectionthree.css';
 
 import {
-    AiFillHtml5,
-    AiFillGithub,
+  AiFillGithub,
+  AiFillHtml5,
 } from 'react-icons/ai'
-
 import {
-    FaCss3Alt,
-    FaReact,
-    FaBootstrap,
+  FaBootstrap,
+  FaCss3Alt,
+  FaGitAlt,
+  FaReact,
 } from 'react-icons/fa'
-
+import {GrMysql} from 'react-icons/gr'
+import {IoLogoJavascript, IoLogoNodejs} from 'react-icons/io'
 import {
-    IoLogoJavascript,
-    IoLogoNodejs
-} from 'react-icons/io'
-
-import {
-    SiMongodb,
-    SiExpress,
-    SiTailwindcss,
-    SiJquery,
-    SiDocker,
-    SiPostman,
-    SiFirebase,
-    SiWebpack,
-    SiRedux,
-    SiCplusplus
+  SiCplusplus,
+  SiDocker,
+  SiExpress,
+  SiFirebase,
+  SiJquery,
+  SiMongodb,
+  SiPostman,
+  SiRedux,
+  SiTailwindcss,
+  SiWebpack
 } from 'react-icons/si'
-
-import {
-    GrMysql
-} from 'react-icons/gr'
-
-
-import {
-    FaGitAlt
-} from 'react-icons/fa'
-
 
 function SectionThree() {
     return (
